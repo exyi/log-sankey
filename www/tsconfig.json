@@ -1,0 +1,14 @@
+{
+  "extends": "@tsconfig/svelte/tsconfig.json",
+  "compilerOptions": {
+    "target": "ES2019",
+    "strict": true,
+    "types": ["node"],
+    "module": "esnext",
+    "noImplicitAny": false,
+    "noEmitOnError": false,
+  },
+
+  "include": ["*.ts"],
+  "exclude": ["node_modules/*", "__sapper__/*", "public/*"],
+}

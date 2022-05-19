@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>log flow analyzer</title>
+    <link rel='stylesheet' href='build/bundle.css'>
+
+    <script type="module" src='build/bundle.js'></script>
+    <script nomodule>
+        document.onload = () => {
+            document.getElementById("svelte-root").textContent = "Your browser is mentally retarded. Please go get up-to-date Firefox, for example."
+        }
+    </script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+  </head>
+  <body>
+    <noscript>Won't work without JS.</noscript>
+
+    <div id="svelte-root"></div>
+
+    <script src="./build/bundle.js"></script>
+  </body>
+</html>
